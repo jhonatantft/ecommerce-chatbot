@@ -23,12 +23,12 @@ $ npm run compile:sass // watch sass change
 * `/` - Render home template
 
 ### Database Queries
-* `/users`  - [GET] Retrieves users by id ascending order
-* `/users/:id` - [GET] Retrieves users by id param
-* `/users/username/:username` - [GET] Retrieves users by username param
-* `/products` - [GET] Retrieves products by id ascending order
-* `/users`  - [POST] Creates new user data on database 
-* `/users/:id` - [PUT] Updates user data on database
+* `/users`  ____________________ (GET) Retrieves users by id ascending order
+* `/users/:id` _________________ (GET) Retrieves users by id param
+* `/users/username/:username` __ (GET) Retrieves users by username param
+* `/products` __________________ (GET) Retrieves products by id ascending order
+* `/users`  ____________________ (POST) Creates new user data on database 
+* `/users/:id` _________________ (PUT) Updates user data on database
 
 
 ## Technologies used
